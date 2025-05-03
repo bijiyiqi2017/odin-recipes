@@ -1,1 +1,3 @@
 .vscode/
+.tmux*
+tmux-client*
