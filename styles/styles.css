@@ -21,8 +21,7 @@ body::before {
   z-index: -1;
 }
 
-#outer-container {
-  display: flex;/* Apply a full-page background image */
+
 body {
   background-image: url("../assets/images/cooking_background2.jpg");
   background-size: cover;
@@ -70,6 +69,7 @@ body::before {
 /* Style buttons (links) */
 #buttons {
   display: flex;
+  flex-direction: column;
   gap: 20px;
   padding: 0;
   margin-top: 20px;
