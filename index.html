@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Recipes</title>
-    <link rel="stylesheet" href="styles/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odin Recipes</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-  <div id="'outer-container">
-        <div id="inner-container">
-            <h1>Odin Recipes</h1>
-            <ul id="buttons">
-            <li><a href="recipes/chicken_parmesan.html">Chicken Parmesan</a></li>
-            <li><a href="recipes/baked_stuffed_peppers.html">Baked Stuffed Peppers</a></li>
-            <li><a href="recipes/meat_lover_biscuit.html">Meat Lover Biscuit</a></li>
-            </ul>
-        </div>
+  <!-- Main outer container for layout and centering -->
+  <div class="outer-container">
+    
+    <!-- Inner container holding the content with background styling -->
+    <div class="outer-container__inner">
+      <!-- Main page title -->
+      <h1>Odin Recipes</h1>
+
+      <!-- Unordered list of recipe links styled as buttons -->
+      <ul class="outer-container__buttons">
+        <li><a class="outer-container__link" href="recipes/chicken_parmesan.html">Chicken Parmesan</a></li>
+        <li><a class="outer-container__link" href="recipes/baked_stuffed_peppers.html">Baked Stuffed Peppers</a></li>
+        <li><a class="outer-container__link" href="recipes/meat_lover_biscuit.html">Meat Lover Biscuit</a></li>
+      </ul>
+    </div>
+
   </div>
-  </body>
-</html>                
+</body>
+</html>
