@@ -1,0 +1,69 @@
+/* BEM Style CSS for Baked Stuffed Peppers Page */
+
+/* Base body styling */
+body.recipe {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 2rem;
+    background-color: #fdfdfd;
+    color: #333;
+  }
+  
+  /* Main title */
+  .recipe__title {
+    font-size: 2.5rem;
+    color: #c0392b;
+    margin-bottom: 1rem;
+  }
+  
+  /* Image styling */
+  .recipe__image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 2rem;
+  }
+  
+  /* Section styling */
+  .recipe__section {
+    margin-bottom: 2rem;
+  }
+  
+  .recipe__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #2c3e50;
+  }
+  
+  .recipe__text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* List styles */
+  .recipe__list {
+    padding-left: 1.5rem;
+  }
+  
+  .recipe__list--ordered {
+    list-style-type: decimal;
+  }
+  
+  .recipe__list-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Link styling */
+  .recipe__back-link {
+    margin-top: 2rem;
+  }
+  
+  .recipe__link {
+    text-decoration: none;
+    color: #2980b9;
+  }
+  
+  .recipe__link:hover {
+    text-decoration: underline;
+  }
+  

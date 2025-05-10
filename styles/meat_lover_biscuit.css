@@ -1,0 +1,85 @@
+/* ========== Global Reset & Base ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body.recipe {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* ========== Typography ========== */
+  .recipe__title {
+    font-size: 2.5rem;
+    color: #b05c2b;
+    margin-bottom: 1rem;
+  }
+  
+  .recipe__subtitle {
+    font-size: 1.75rem;
+    color: #333;
+    margin-top: 2rem;
+  }
+  
+  .recipe__text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  /* ========== Image ========== */
+  .recipe__image {
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 8px;
+  }
+  
+  /* ========== Section Layout ========== */
+  .recipe__section {
+    margin-bottom: 2rem;
+  }
+  
+  /* ========== Ingredients List ========== */
+  .recipe__list {
+    list-style: disc inside;
+    margin-top: 1rem;
+  }
+  
+  .recipe__list-item {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  /* ========== Cooking Steps ========== */
+  .recipe__steps {
+    list-style: decimal inside;
+    margin-top: 1rem;
+  }
+  
+  .recipe__step {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  /* ========== Navigation Link ========== */
+  .recipe__home-link {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  
+  .recipe__home-link a {
+    text-decoration: none;
+    color: #0077cc;
+  }
+  
+  .recipe__home-link a:hover {
+    text-decoration: underline;
+  }
+  
